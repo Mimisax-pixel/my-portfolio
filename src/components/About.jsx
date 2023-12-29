@@ -4,8 +4,8 @@ const About = () => {
   return (
     <div name="About" className="w-full h-screen bg-gray-800 text-white">
       <div className="max-w-screen-lg  p-4 mx-auto flex flex-col justify-center w-full h-full">
-        <div className="mt-8">
-          <p className="tracking-wide font-bold inline border-b-4 border-red-800 text-4xl text-md">
+        <div className="mt-20">
+          <p className="tracking-wide overflow-hidden font-bold inline border-b-4 border-red-800 text-4xl text-md">
             About Me
           </p>
         </div>
@@ -28,10 +28,7 @@ const About = () => {
             I’m involved in other commendable activities in the tech ecosystem,
             where I’m constantly sharing opportunities, giving mentorship, and
             leaving the door open for others.I spend my time helping people get
-            started in tech, build early tech careers too. I do this by
-            enlightening them about the future of Tech hosting 1:1 sessions, and
-            I also dedicate my time to posting daily job openings on my social
-            media channels.
+            started in tech, build early tech careers too.
           </p>
         </p>
       </div>
