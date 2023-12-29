@@ -30,7 +30,7 @@ const Projects = () => {
              md:h-screen"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
-        <div className="mt-20">
+        <div className="mt-40">
           <p className="text-4xl font-bold inline border-b-4 border-red-800 ">
             Projects
           </p>
