@@ -49,7 +49,7 @@ const Home = () => {
           <img
             src={Miracle}
             alt="HeroProfile"
-            className="rounded-2xl mx-auto w-60 md:w-96 dark:bg-gray-900 bg-slate-100  dark:shadow-red-900 shadow-teal-500 shadow-lg p-2 mt-40"
+            className="rounded-2xl mx-auto w-60 md:w-96 dark:bg-gray-900 bg-slate-100  dark:shadow-red-900 shadow-teal-500 shadow-lg p-2 md:mt-40 mt-20"
           />
         </div>
 
