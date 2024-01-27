@@ -54,15 +54,15 @@ const Experience = () => {
     },
   ];
   return (
-    <div name="Experience" className="bg-gray-800 w-full h-screen">
-      <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
-        <div className="mt-60">
-          <p className="text-4xl font-bold border-b-4 border-red-800 p-2 inline">
+    <div name="Experience" className="dark:bg-gray-900 text-gray-900 dark:text-white bg-slate-100 w-full h-screen">
+      <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full">
+        <div className="mt-80 md:mt-10 lg:mt-10">
+          <p className="text-3xl md:text-4xl font-bold border-b-4 dark:border-red-800 border-teal-500 p-2 inline">
             Experience
           </p>
-          <p className="py-6">These are the Technologies i have worked with</p>
+          <p className="py-6 font-serif">These are the Technologies i have worked with</p>
         </div>
-        <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0">
+        <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0 font-serif">
           {skills.map(({ id, src, title, style }) => (
             <div
               key={id}

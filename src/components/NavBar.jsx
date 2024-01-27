@@ -1,8 +1,9 @@
 import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
+import { MdNightsStay, MdWbSunny } from "react-icons/md";
 import { Link } from "react-scroll";
 
-const NavBar = () => {
+const NavBar = ({ darkMode, setdarkMode }) => {
   const [nav, setNav] = useState(false);
 
   const links = [
@@ -33,10 +34,20 @@ const NavBar = () => {
   ];
 
   return (
-    <div className="flex justify-between items-center w-full h-20 text-gray-300 bg-gray-800 fixed px-4">
-      <div>
-        <h1 className="text-5xl ml-2 text-white">Mimi</h1>
+    <div className="flex justify-between items-center w-full h-20 text-gray-900 bg-slate-100 dark:bg-gray-900 dark:text-white fixed px-4 shadow-md" >
+      
+      <nav className="flex justify-between items-center p-5 gap-6">
+        <h1 className="text-5xl ml-2 font-bod font-mono">Mimi</h1>
+      
+      <div onClick={() => setdarkMode(!darkMode)}>
+        {darkMode ? (
+          <MdWbSunny className='text-2xl cursor-pointer' />
+        ) : (
+          <MdNightsStay className='text-2xl cursor-pointer' />
+        )}
       </div>
+      </nav>
+      
       <ul className="hidden md:flex">
         {links.map(({ id, link }) => (
           <li
@@ -63,7 +74,7 @@ const NavBar = () => {
               key={id}
               className=" px-4 cursor-pointer capitalize py-6 text-4xl"
             >
-              <Link onClick={() =>setNav(!nav)} to={link} smooth duration={500}>
+              <Link onClick={() => setNav(!nav)} to={link} smooth duration={500}>
                 {link}
               </Link>
             </li>
