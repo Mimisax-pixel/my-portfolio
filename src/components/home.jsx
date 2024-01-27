@@ -15,9 +15,9 @@ const Home = () => {
     >
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
         <div className="flex flex-col justify-center h-full">
-          <h2 className="text-4xl sm:text-2xl md:text-7xl font-bold font-serif mt-40">
+          <h3 className=" md:text-7xl font-bold font-serif mt-60">
             I'm a Web Developer
-          </h2>
+          </h3>
           <p className=" py-4 max-w-md text-2xl font-serif">
             I love to work on Web Applications using Technologies <br />
             like
@@ -49,7 +49,7 @@ const Home = () => {
           <img
             src={Miracle}
             alt="HeroProfile"
-            className="rounded-2xl mx-auto w-40 md:w-96 dark:bg-gray-900 bg-slate-100  dark:shadow-red-900 shadow-teal-500 shadow-lg p-2 mt-40"
+            className="rounded-2xl mx-auto w-80 md:w-96 dark:bg-gray-900 bg-slate-100  dark:shadow-red-900 shadow-teal-500 shadow-lg p-2 mt-40"
           />
         </div>
 
