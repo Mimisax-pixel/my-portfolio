@@ -14,7 +14,7 @@ const NavBar = ({ darkMode, setdarkMode }) => {
 
     {
       id: 2,
-      link: "About",
+      link: "Publications",
     },
 
     {

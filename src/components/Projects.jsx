@@ -1,22 +1,42 @@
 import React from "react";
 // import Pee from "../assets/keeperapp.png";
-import miracle from "../assets/colorPicker.png";
-import Blessed from "../assets/todoApp.png";
+import miracle from "../assets/grad.png";
+import Blessed from "../assets/great.png";
+import hlf from "../assets/hlf.png";
+import help from "../assets/Helping.png"
+import water from "../assets/water.png";
+import ifiok from "../assets/ifiok.png";
 
 const Projects = () => {
   const projects = [
     {
       id: 1,
       src: miracle,
-      href: "https://transcendent-muffin-8cfba4.netlify.app/",
-      Code: "https://github.com/Mimisax-pixel/todo.git",
     },
 
     {
       id: 2,
       src: Blessed,
-      href: "https://famous-yeot-6329e1.netlify.app/",
-      Code: "https://github.com/Mimisax-pixel/color.git",
+    },
+
+    {
+      id: 3,
+      src: hlf,
+    },
+
+    {
+      id: 4,
+      src: water,
+    },
+
+    {
+      id: 5,
+      src: help,
+    },
+
+    {
+      id: 6,
+      src: ifiok,
     },
     
   ];
@@ -29,24 +49,15 @@ const Projects = () => {
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="mt-40 md:mt-10">
           <p className="text-3xl md:text-4xl font-bold inline border-b-4 dark:border-red-800 border-teal-500">
-            Projects
+            Community Service
           </p>
-          <p className="py-6 font-serif">Check out some of my work here</p>
+          <p className="py-6 font-serif">This took place in 2021, while I was still in tertiaty institution</p>
         </div>
 
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0 shadow-lg">
-          {projects.map(({ id, src, Code, href }) => (
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-0 px-12 sm:px-0 shadow-lg">
+          {projects.map(({ id, src, }) => (
             <div key={id} className=" shadow-gray-200 ronded-lg">
               <img src={src} alt="" />
-              <div className="flex items-center justify-center">
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                 <a href={Code} >Github</a>
-                </button>
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                 <a href={href} >Link</a>
-                  
-                </button>
-              </div>
             </div>
           ))}
         </div>

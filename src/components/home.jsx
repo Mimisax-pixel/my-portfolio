@@ -15,21 +15,27 @@ const Home = () => {
     >
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
         <div className="flex flex-col justify-center h-full">
-          <h3 className=" md:text-7xl font-bold font-serif mt-60">
-            I'm a Web Developer
+          <h3 className=" md:text-2xl font-serif font-serif mt-60">
+            Hi! I'm Onukak Wisdom. <br />I study how we communicate with and through machines.
           </h3>
-          <p className=" py-4 max-w-md text-2xl font-serif">
-            I love to work on Web Applications using Technologies <br />
-            like
+          <p className=" py-4 max-w-md text-1xl">
+          Specific interests of mine pertain in exploring how different media houses in the underrepresented regions use other languages for reporting or writing news stories and how AI-driven communication tools can enhance this process. 
+          He is particularly interested in how AI can bridge language barriers and bias. <br />
+
             <TypeAnimation
               sequence={[
-                "React Js",
+                "My Research Interest is in",
+                1000,
+                "Human-Computer Interaction",
                 1000, 
-                "Tailwind",
+                "Human-Machine Communication",
                 1000,
-                "Typescript",
+                "Artificial Intelligence",
                 1000,
-                
+                "AI Privacy",
+                1000,
+                "Emerging Technologies",
+                1000, 
               ]}
               wrapper="span"
               speed={20}
