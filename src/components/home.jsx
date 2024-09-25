@@ -14,13 +14,12 @@ const Home = () => {
     >
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
         <div className="flex flex-col justify-center h-full md:w-1/2">
-          <h3 className="text-xl md:text-2xl font-serif mt-40 md:mt-0">
-            Hi! I'm Onukak Wisdom. <br />
-            I study how we communicate with and through machines.
-          </h3>
           <p className="py-4 max-w-md text-md md:text-lg">
-            Specific interests of mine pertain to exploring how different media houses in underrepresented regions use other languages for reporting or writing news stories and how AI-driven communication tools can enhance this process.
-            I am particularly interested in how AI can bridge language barriers and bias. Additionally, I aim to explore how cultural inaccuracies in AI algorithms impact media reporting and how AI can be adapted to respect local cultural contexts for more inclusive news communication.
+            I am Onukak Wisdom, I study how we communinicate with machines and through machines.
+            My specific interests of mine pertain to exploring how different media houses in underrepresented regions use other languages for reporting or writing news stories, 
+            and how AI-driven communication tools can enhance this process.
+            I am particularly interested in how AI can bridge language barriers and bias. 
+            Additionally, I aim to explore how cultural inaccuracies in AI algorithms impact media reporting and how AI can be adapted to respect local cultural contexts for more inclusive news communication.
             <br />
             <TypeAnimation
               sequence={[
