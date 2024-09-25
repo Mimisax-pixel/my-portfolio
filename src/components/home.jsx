@@ -32,7 +32,7 @@ const Home = () => {
                 1000,
                 "Artificial Intelligence",
                 1000,
-                "AI Privacy",
+                "Global Digial Media Culture",
                 1000,
                 "Emerging Technologies",
                 1000, 
@@ -55,7 +55,7 @@ const Home = () => {
           <img
             src={Miracle}
             alt="HeroProfile"
-            className="rounded-2xl mx-auto w-60 md:w-96 dark:bg-gray-900 bg-slate-100  dark:shadow-red-900 shadow-teal-500 shadow-lg p-2 md:mt-40 mt-20"
+            className="rounded-2xl w-60 sm:w-96 md:w-96 dark:bg-gray-900 bg-slate-100 dark:shadow-red-900 shadow-teal-500 shadow-lg p-2 md:mt-40"
           />
         </div>
 

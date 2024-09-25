@@ -3,8 +3,8 @@ import React from "react";
 const Publications = () => {
   return (
     <div name="Publications" className="w-full h-screen dark:bg-gray-900 text-gray-900 dark:text-white bg-slate-100">
-      <div className="max-w-screen-lg  p-4 mx-auto flex flex-col justify-center  h-full">
-        <div className="mt-60 md:mt-20">
+      <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center  h-full">
+        <div className="mt-80 md:mt-20">
           <p className="tracking-wide overflow-hidden font-bold inline border-b-4 dark:border-red-800 border-teal-500 text-3xl md:text-4xl mt-10">
             Publications
           </p>
@@ -23,7 +23,7 @@ const Publications = () => {
         <div>
           <h3 className="tracking-wide overflow-hidden font-bold inline border-b-4 dark:border-red-800 border-teal-500 text-3xl md:text-4xl mt-10">News Stories and Articles Published</h3><br/>
           <ul><br />
-            <li>
+            <li className="mt-2">
               <a
                 href="https://streetnews.ng/unical-denies-rumors-of-vcs-sacking/"
                 target="_blank"
@@ -32,8 +32,8 @@ const Publications = () => {
               >
                 UNICAL Denies Rumours of VC's Sacking
               </a>
-            </li><br />
-            <li>
+            </li>
+            <li className="mt-2">
               <a
                 href="https://streetnews.ng/governor-eno-promises-prosperous-second-year-for-aibom-state/"
                 target="_blank"
@@ -42,8 +42,8 @@ const Publications = () => {
               >
                 Governor Eno Promises Prosperous Second Year For A’Ibom State
               </a>
-            </li><br />
-            <li>
+            </li>
+            <li className="mt-2">
               <a
                 href="https://streetnews.ng/police-denies-raiding-nlc-secretariat/"
                 target="_blank"
@@ -52,8 +52,8 @@ const Publications = () => {
               >
                 Police Denies Raiding NLC Secretariat
               </a>
-            </li><br />
-            <li>
+            </li>
+            <li className="mt-2">
               <a
                 href="https://streetnews.ng/army-arrest-boko-haram-commander-rescue-kidnapped-victims/"
                 target="_blank"
@@ -62,8 +62,8 @@ const Publications = () => {
               >
                 Army Arrest Boko Haram Commander, Rescue Kidnapped Victims
               </a>
-            </li><br />
-            <li>
+            </li>
+            <li className="mt-2">
               <a
                 href="https://streetnews.ng/protest-police-warns-against-military-takeover-arrest-90/"
                 target="_blank"
@@ -72,8 +72,8 @@ const Publications = () => {
               >
                 Police Warns Against Military Takeover,  Arrest 90
               </a>
-            </li><br />
-            <li>
+            </li>
+            <li className="mt-2">
               <a
                 href="https://streetnews.ng/police-arrest-spy-police-for-wearing-uniform-during-campaign/"
                 target="_blank"
