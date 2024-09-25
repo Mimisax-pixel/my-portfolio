@@ -42,17 +42,17 @@ const Projects = () => {
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="mt-40 md:mt-10">
-          <p className="text-3xl md:text-4xl font-bold inline border-b-4 dark:border-red-800 border-teal-500">
+          <p className="text-2xl md:text-4xl font-bold inline border-b-4 dark:border-red-800 border-teal-500">
             Community Service
           </p>
           <p className="py-6 font-serif">
-            This took place in 2021, while I was still in tertiary institution
+            I co-founded Help A Life Foundation in 2021, this was our very first outreach, we felt fufilled helping people.
           </p>
         </div>
 
         {/* Responsive grid for project images */}
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-0 px-4 sm:px-0">
-          {projects.map(({ id, src }) => (
+          {projects.map(({ id, src, }) => (
             <div
               key={id}
               className="rounded-lg overflow-hidden shadow-lg hover:scale-105 transition-transform duration-300"

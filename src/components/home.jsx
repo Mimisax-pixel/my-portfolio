@@ -15,11 +15,9 @@ const Home = () => {
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
         <div className="flex flex-col justify-center h-full md:w-1/2">
           <p className="py-4 max-w-md text-md md:text-lg">
-            I am Onukak Wisdom, I study how we communinicate with machines and through machines.
+            I am Onukak Wisdom, I aim to study how we communinicate with machines and through machines.
             My specific interests of mine pertain to exploring how different media houses in underrepresented regions use other languages for reporting or writing news stories, 
             and how AI-driven communication tools can enhance this process.
-            I am particularly interested in how AI can bridge language barriers and bias. 
-            Additionally, I aim to explore how cultural inaccuracies in AI algorithms impact media reporting and how AI can be adapted to respect local cultural contexts for more inclusive news communication.
             <br />
             <TypeAnimation
               sequence={[
@@ -43,7 +41,7 @@ const Home = () => {
             />
           </p>
           <div>
-            <a href="/my cv.pdf" target="_blank" rel="noopener noreferrer">
+            <a href="/Wisdom Onukak Academic CV.pdf" target="_blank" rel="noopener noreferrer">
               <button
                 onClick={handleClick}
                 className="text-white w-fit px-6 py-3 my-2 flex items-center rounded-md dark:bg-red-800 bg-teal-500 cursor-pointer font-serif font-extrabold"
