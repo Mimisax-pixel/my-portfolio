@@ -23,7 +23,7 @@ const Publications = () => {
         <div>
           <h3 className="tracking-wide overflow-hidden font-bold inline border-b-4 dark:border-red-800 border-teal-500 text-3xl md:text-4xl mt-10">News Stories and Articles Published</h3><br/>
           <ul><br />
-            <li className="mt-2">
+            <li className="md:mt-2">
               <a
                 href="https://streetnews.ng/unical-denies-rumors-of-vcs-sacking/"
                 target="_blank"
@@ -33,7 +33,7 @@ const Publications = () => {
                 UNICAL Denies Rumours of VC's Sacking
               </a>
             </li>
-            <li className="mt-2">
+            <li className="md:mt-2">
               <a
                 href="https://streetnews.ng/governor-eno-promises-prosperous-second-year-for-aibom-state/"
                 target="_blank"
@@ -43,7 +43,7 @@ const Publications = () => {
                 Governor Eno Promises Prosperous Second Year For A’Ibom State
               </a>
             </li>
-            <li className="mt-2">
+            <li className="md:mt-2">
               <a
                 href="https://streetnews.ng/police-denies-raiding-nlc-secretariat/"
                 target="_blank"
@@ -53,7 +53,7 @@ const Publications = () => {
                 Police Denies Raiding NLC Secretariat
               </a>
             </li>
-            <li className="mt-2">
+            <li className="md:mt-2">
               <a
                 href="https://streetnews.ng/army-arrest-boko-haram-commander-rescue-kidnapped-victims/"
                 target="_blank"
@@ -63,7 +63,7 @@ const Publications = () => {
                 Army Arrest Boko Haram Commander, Rescue Kidnapped Victims
               </a>
             </li>
-            <li className="mt-2">
+            <li className="md:mt-2">
               <a
                 href="https://streetnews.ng/protest-police-warns-against-military-takeover-arrest-90/"
                 target="_blank"
@@ -73,7 +73,7 @@ const Publications = () => {
                 Police Warns Against Military Takeover,  Arrest 90
               </a>
             </li>
-            <li className="mt-2">
+            <li className="md:mt-2">
               <a
                 href="https://streetnews.ng/police-arrest-spy-police-for-wearing-uniform-during-campaign/"
                 target="_blank"

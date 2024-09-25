@@ -20,7 +20,8 @@ const Home = () => {
           </h3>
           <p className=" py-4 max-w-md text-1xl">
           Specific interests of mine pertain in exploring how different media houses in the underrepresented regions use other languages for reporting or writing news stories and how AI-driven communication tools can enhance this process. 
-          He is particularly interested in how AI can bridge language barriers and bias. <br />
+          I am particularly interested in how AI can bridge language barriers and bias. Additionaly, I aim to explore how cultural inaccuracies in AI algorithms impact media reporting 
+          and how AI can be adapted to respect local cultural contexts for more inclusive news communication. <br />
 
             <TypeAnimation
               sequence={[
@@ -55,7 +56,7 @@ const Home = () => {
           <img
             src={Miracle}
             alt="HeroProfile"
-            className="rounded-2xl w-60 sm:w-96 md:w-96 dark:bg-gray-900 bg-slate-100 dark:shadow-red-900 shadow-teal-500 shadow-lg p-2 md:mt-40"
+            className="rounded-2xl w-60 sm:w-20 md:w-80 dark:bg-gray-900 bg-slate-100 dark:shadow-red-900 shadow-teal-500 shadow-lg p-2 md:mt-40"
           />
         </div>
 
