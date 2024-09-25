@@ -13,12 +13,14 @@ const Home = () => {
       className="h-screen w-full dark:bg-gray-900 text-gray-900 dark:text-white bg-slate-100"
     >
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
-        <div className="flex flex-col justify-center h-full md:w-1/2">
-          <p className="py-4 max-w-md text-md md:text-lg">
-            I am Onukak Wisdom, I aim to study how we communinicate with machines and through machines.
-            My specific interests of mine pertain to exploring how different media houses in underrepresented regions use other languages for reporting or writing news stories,
+        {/* Text and content section */}
+        <div className="flex flex-col justify-center h-full md:w-1/2 space-y-4">
+          <p className="py-4 max-w-md text-base sm:text-lg md:text-xl lg:text-2xl leading-6 md:leading-7 lg:leading-8">
+            I am Onukak Wisdom, I aim to study how we communicate with machines and through machines.
+            My specific interests pertain to exploring how different media houses in underrepresented regions use other languages for reporting or writing news stories,
             and how AI-driven communication tools can enhance this process.
             <br />
+            {/* Type Animation */}
             <TypeAnimation
               sequence={[
                 "My Research Interest is in",
@@ -40,17 +42,21 @@ const Home = () => {
               repeat={Infinity}
             />
           </p>
+
+          {/* Download CV Button */}
           <div>
             <a href="/Wisdom Onukak Academic CV.pdf" target="_blank" rel="noopener noreferrer">
               <button
                 onClick={handleClick}
-                className="text-white w-fit px-6 py-3 my-2 flex items-center rounded-md dark:bg-red-800 bg-teal-500 cursor-pointer font-serif font-extrabold"
+                className="text-white w-fit px-6 py-3 my-2 flex items-center rounded-md dark:bg-red-800 bg-teal-500 cursor-pointer font-serif font-extrabold hover:scale-105 transition-transform duration-300"
               >
                 Download CV
               </button>
             </a>
           </div>
         </div>
+
+        {/* Image Section */}
         <div className="mt-10 md:mt-0 md:w-1/2 flex justify-center">
           <img
             src={Miracle}
