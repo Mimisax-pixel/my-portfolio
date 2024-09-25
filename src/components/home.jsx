@@ -16,7 +16,7 @@ const Home = () => {
         <div className="flex flex-col justify-center h-full md:w-1/2">
           <p className="py-4 max-w-md text-md md:text-lg">
             I am Onukak Wisdom, I aim to study how we communinicate with machines and through machines.
-            My specific interests of mine pertain to exploring how different media houses in underrepresented regions use other languages for reporting or writing news stories, 
+            My specific interests of mine pertain to exploring how different media houses in underrepresented regions use other languages for reporting or writing news stories,
             and how AI-driven communication tools can enhance this process.
             <br />
             <TypeAnimation
